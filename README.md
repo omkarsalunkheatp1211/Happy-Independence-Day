@@ -16,7 +16,7 @@
 
 ## Preview
 
-![1](https://github.com/omkarsalunkheatp1211/Happy-Independence-Day/assets/96873232/c84ca9c8-b83e-4960-81e6-9c16e566ffa5)
+![1](https://github.com/omkarsalunkheatp1211/Happy-Independence-Day/assets/96873232/cbb4d262-9de6-498c-98de-8c9385b33397)
 
 
 ## Technologies Used
