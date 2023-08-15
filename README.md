@@ -28,6 +28,10 @@
 
 ## Setup
 
+https://omkarsalunkheatp1211.github.io/Happy-Independence-Day/
+
+OR
+
 Open your terminal or command prompt and Clone the repository to your local machine:
 ```javascript
 git clone https://github.com/omkarsalunkheatp1211/Happy-Independence-Day.git
