@@ -1,0 +1,195 @@
+.wrapper {
+    display: flex;
+}
+
+.stick {
+    height: 700px;
+    width: 10px;
+    background: rgb(0, 0, 0);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.flag {
+    width: 270px;
+    height: 180px;
+    box-shadow: 0px 0px 90px 1px rgb(248, 171, 103);
+    background-color: transparent;
+    position: relative;
+}
+
+.top {
+    height: 60px;
+    background-color: #FF9933
+}
+
+.middle {
+    height: 60px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    height: 60px;
+    background-color: #138808;
+}
+
+
+.wheel {
+    height: 43px;
+    width: 43px;
+    border: 1px solid #000080;
+    border-radius: 45px;
+    position: relative;
+    margin: 0 auto;
+    animation-name: wheel;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+
+.background-text {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation-name: pulsate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.word-happy {
+    color: #FF9933;
+}
+
+.word-independence {
+    color: #000080;
+}
+
+.word-day {
+    color: #138808;
+}
+
+@keyframes pulsate {
+
+    0%,
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+}
+
+
+.wheel .line {
+    height: 100%;
+    width: 1px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    background: #000080;
+}
+
+/* lines = 24 ... 360deg  / 24lines=  15deg */
+.line:nth-child(1) {
+    transform: rotate(15deg)
+}
+
+.line:nth-child(2) {
+    transform: rotate(30deg)
+}
+
+.line:nth-child(3) {
+    transform: rotate(45deg)
+}
+
+.line:nth-child(4) {
+    transform: rotate(60deg)
+}
+
+.line:nth-child(5) {
+    transform: rotate(75deg)
+}
+
+.line:nth-child(6) {
+    transform: rotate(90deg)
+}
+
+.line:nth-child(7) {
+    transform: rotate(105deg)
+}
+
+.line:nth-child(8) {
+    transform: rotate(120deg)
+}
+
+.line:nth-child(9) {
+    transform: rotate(135deg)
+}
+
+.line:nth-child(10) {
+    transform: rotate(150deg)
+}
+
+.line:nth-child(11) {
+    transform: rotate(165deg)
+}
+
+.line:nth-child(12) {
+    transform: rotate(180deg)
+}
+
+@keyframes wheel {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: #fff;
+    font-weight: 800;
+    font-size: 2.7rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.7rem;
+    display: flex;
+    gap: 1rem;
+    padding: .5rem 1rem;
+    box-shadow:
+        5px 5px 7px rgba(0, 0, 0, 0.11),
+        10px 10px 15px rgba(0, 0, 0, 0.11),
+        50px 50px 60px rgba(0, 0, 0, 0.11);
+    transition: transform 0.2s ease;
+}
+
+#btn:active {
+    transform: scale(0.9);
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
