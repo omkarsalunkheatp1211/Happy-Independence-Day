@@ -16,6 +16,8 @@
 
 ## Preview
 
+**Live Demo:** [Independence Day Celebration Web Page](https://omkarsalunkheatp1211.github.io/Happy-Independence-Day/)
+
 ![1](https://github.com/omkarsalunkheatp1211/Happy-Independence-Day/assets/96873232/cbb4d262-9de6-498c-98de-8c9385b33397)
 
 
@@ -27,10 +29,6 @@
 - [canvas-confetti](https://github.com/catdad/canvas-confetti) library for confetti animation
 
 ## Setup
-
-https://omkarsalunkheatp1211.github.io/Happy-Independence-Day/
-
-OR
 
 Open your terminal or command prompt and Clone the repository to your local machine:
 ```javascript
